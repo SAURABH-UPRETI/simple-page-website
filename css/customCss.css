@@ -1,0 +1,153 @@
+body{
+    background-color: yellow;
+}
+
+/* logo css */
+
+.logo{
+    height: 80px;
+    width: 150px;
+}
+
+/*navbar */
+
+.customNavbar{
+    background-color: white;
+    width: 100%;
+    position: fixed;   
+}
+
+
+.customNav{
+    width: 1200px;
+    float: right; 
+ 
+}
+
+
+/* header css */
+
+.header{
+    height: 700px;
+    background-image: url("../images/bg-home.jpg");
+}
+
+.headerLogo{
+    width: 600px;
+    height: 440px;
+    margin-top: 150px;
+}
+
+.queryForm{
+    width: 500px;
+    height: 400px;color: white;
+    margin-top: 150px;
+}
+
+.headerDiv{
+    
+}
+
+
+/* services block css */
+
+.services{
+    border: 5px solid white;
+}
+
+/* about css */
+.backgroundImage{
+    background-image: url("../images/bg-about.jpg");
+}
+
+.aboutTextBox{
+	border-bottom: 800px solid white;
+	border-right: 250px solid transparent;
+	width: 800px;  
+}
+
+
+.aboutOverlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    
+  }
+  .aboutHeading{
+      margin-top: 300px;
+    margin-left: 200px;     
+}
+.aboutParagraph{
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+/* gallary css */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+
+ /* team css */
+ .img{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+/* pricing card css */
+
+.pricing{
+    margin-top: 100px;
+}
+.pricingCard{
+    height: 400px;
+    width: 315px;
+    margin-left: 75px;    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.pricingCardTop{
+    background-color: rgb(194, 226, 245);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/*footer */
+
+.footer{
+    margin-top: 30px;
+   
+   
+}
+a:link{
+    text-decoration: none;
+}
+
+.form{
+    width: 450px;
+    margin-right: 100px;
+}
+
+    /* underline css */
+    .underline{
+    border-bottom: 2px solid white;
+    }
+
