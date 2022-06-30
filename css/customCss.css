@@ -64,7 +64,8 @@ body{
 .aboutTextBox{
 	border-bottom: 800px solid white;
 	border-right: 250px solid transparent;
-	width: 800px;  
+	width: 800px; 
+	z-index:-1;
 }
 
 
@@ -116,6 +117,7 @@ body{
 
 .pricing{
     margin-top: 100px;
+	z-index:-1;
 }
 .pricingCard{
     height: 400px;
